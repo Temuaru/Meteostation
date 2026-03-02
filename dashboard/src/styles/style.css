@@ -1,0 +1,27 @@
+.update_button {
+    background-color: brown;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+    margin-left: 15px;
+
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+p {
+    margin-left: 30px;
+}
+
+.info {
+    display: inline; 
+}
+
+.Graph1, .Graph2, .Graph3 {
+    height: 300px;
+    width: 80%;
+}
