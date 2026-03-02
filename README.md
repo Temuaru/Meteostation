@@ -5,12 +5,16 @@
 
 ## Стек технологий
 Backend: Go (Golang), Goroutines (для конкурентного сбора данных).
+
 Database: PostgreSQL.
+
 Frontend: JavaScript, Webpack, HTML5 & CSS3, Chart.js.
+
 Infrastructure: Docker, Docker-compose, Linux (Ubuntu), Makefile.
 
 ## Архитектура системы
 Проект развернут в виде двух изолированных микросервисов в Docker-контейнерах:
+
 Backend Server (Go):
 - Реализована логика высокочастотного сбора данных (1 запрос в секунду).
 - Использование Goroutines для обеспечения неблокирующего получения JSON-пакетов от IoT-модуля.
